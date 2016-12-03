@@ -23,7 +23,7 @@ get <- function(x)
 
 cacheSolve <- function(x, ...) {
          {
-        inv <- x$getinverse()
+        m <- x$getinverse()
         if(!is.null(m)) {
                 message("getting cached data")
                 return(m)
